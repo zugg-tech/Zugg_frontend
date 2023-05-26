@@ -89,6 +89,7 @@ function DrawerAppBar(props) {
               <Button
                 href="http://tinyurl.com/zuggregistration"
                 className="Button"
+                target="_blank"
                 style={{
                   paddingRight: "3rem",
                   color: "#757575",
@@ -210,6 +211,7 @@ function DrawerAppBar(props) {
                   <Button
                     href="http://tinyurl.com/zuggregistration"
                     className="Button"
+                    target="_blank"
                     style={{
                       paddingRight: "3rem",
                       color: "#757575",
