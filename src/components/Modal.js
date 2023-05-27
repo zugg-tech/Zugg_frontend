@@ -8,7 +8,7 @@ import TextField from "@mui/material/TextField";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import IconButton from "@material-ui/core/IconButton";
-import formLogo from "../assets/img/formLogo.png";
+import formLogo from "../assets/img/formlogo.png";
 import "../assets/css/Modal.css";
 import swal from 'sweetalert';
 
@@ -196,7 +196,7 @@ export default function BasicModal(props) {
                 name="phone"
               />
 
-              <MDBBtn className="mb-4" type="submit" onClick={sendEmail} block style={{fontWeight:"800",backgroundColor:"#EF0078"}}>
+              <MDBBtn className="mb-4" type="submit" onClick={sendEmail} block style={{fontWeight:"800",backgroundColor:"#EF0078",boxShadow:"none"}}>
                 Request Callback
               </MDBBtn>
             </form>

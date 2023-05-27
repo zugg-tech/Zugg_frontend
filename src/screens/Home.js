@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography'
 import Box from '@mui/material/Box'
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 import { Button } from '@mui/material'
-import HeroImage from '../assets/img/hero_img.png'
+import HeroImage from '../assets/img/hero_image.png'
 import Image5 from '../assets/img/Group 21.png'
 import GroupImage from '../assets/img/Group 19.png'
 import Aiimg from '../assets/img/Group 20.png'
@@ -34,7 +34,7 @@ export default function () {
               </Typography>
               <Typography align="left" className="Desc">
                 Stand out on the digital space through tailored campaigns for
-                your brand. Want to reach out to relevant influencers? Contact
+                your brand. Want to reach out to relevant influencers?<br /> Contact
                 Us.
               </Typography>
             </div>
@@ -139,7 +139,7 @@ export default function () {
                   Fashion 👠 &nbsp;&nbsp; &nbsp; &nbsp;Beauty 💅🏻️
                   &nbsp;&nbsp;&nbsp;&nbsp; Fitness 🏋️‍♀️ &nbsp;&nbsp;&nbsp;&nbsp;
                   Food 🍕
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  
                 </strong>
               </span>
               <span
@@ -303,7 +303,7 @@ export default function () {
                   display: "inline-block",
                   color: "#757575",
                   fontSize: "1.5rem",
-                  textAlign: "left",
+                  textAlign: "center",
                   fontFamily: "Open Sans",
                 }}
               >
@@ -323,8 +323,9 @@ export default function () {
 
               <div
                 className="TwoButtons"
-                style={{ display: "inline-block", marginTop: "2rem" }}
+                style={{ marginTop: "2rem" }}
               >
+                <div>
                 <Button
                   className="StartCamp"
                   onClick={handleOpen}
@@ -342,7 +343,9 @@ export default function () {
                   {" "}
                   START A CAMPAIGN
                 </Button>
+                </div>
                 {open && <Modal open={open} handleClose={handleClose} />}
+                <div className="WpButton">
                 <a
                   href="https://wa.me/8383928314"
                   class="whatsapp_float"
@@ -350,7 +353,7 @@ export default function () {
                   rel="noopener noreferrer"
                 >
                   <Button
-                    className="WpButton"
+                    
                     style={{
                       backgroundColor: "#22B85E",
                       color: "white",
@@ -365,6 +368,7 @@ export default function () {
                     <WhatsAppIcon />
                   </Button>
                 </a>
+                </div>
               </div>
             </Typography>
           </div>
